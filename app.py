@@ -13,10 +13,10 @@ def query(payload):
         return {"error": f"Error {response.status_code}: {response.text}"}
 
 # Configuración de la app
-st.set_page_config(page_title="Chat con Flowise", page_icon="🤖")
+st.set_page_config(page_title="Asistente de futbol", page_icon="🤖")
 
-st.title("🤖 Chatbot con Flowise")
-st.markdown("Este chatbot está conectado a un modelo desplegado en Flowise mediante un endpoint REST.")
+st.title("⚽ Asistente de futbol")
+st.markdown("Este asistente es para expandir tu conocimiento en futbol.")
 
 # Session state para mantener el historial del chat
 if "messages" not in st.session_state:
